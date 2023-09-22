@@ -31,11 +31,11 @@ It's a free and open source software for Windows XP and later.
 
 Please use ReactOS Build Environment (RosBE).
 
-git clone https://github.com/katahiromz/RClipbrd
-cd RClipbrd
-cmake -G Ninja -DCMAKE_BUILD_TYPE=Release .
-ninja
-strip clipbrd.exe
+	git clone https://github.com/katahiromz/RClipbrd
+	cd RClipbrd
+	cmake -G Ninja -DCMAKE_BUILD_TYPE=Release .
+	ninja
+	strip clipbrd.exe
 
 Tested on RosBE, Visual Studio 2015, and Visual Studio 2019.
 
