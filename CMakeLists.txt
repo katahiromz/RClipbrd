@@ -1,10 +1,10 @@
-# RNotepad --- Independent ReactOS Notepad
+# RClipbrd --- Independent ReactOS Clipbrd
 
 # CMake minimum version
 cmake_minimum_required(VERSION 3.5)
 
 # project name and languages
-project(RNotepad C RC)
+project(RClipbrd C RC)
 
 ##############################################################################
 # Debugging
