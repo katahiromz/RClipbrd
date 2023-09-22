@@ -50,7 +50,7 @@ git clone https://github.com/katahiromz/RClipbrd
 cd RClipbrd
 cmake -G Ninja -DCMAKE_BUILD_TYPE=Release .
 ninja
-strip notepad.exe
+strip clipbrd.exe
 ```
 
 Tested on RosBE, Visual Studio 2015, and Visual Studio 2019.
