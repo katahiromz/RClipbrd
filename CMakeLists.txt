@@ -35,7 +35,6 @@ add_executable(clipbrd WIN32
     winutils.c
     clipbrd.rc
     compat/WinMain.c
-    compat/_CrtSetDbgFlag.c
     compat/HtmlHelp.c)
 
 target_compile_definitions(clipbrd PRIVATE
